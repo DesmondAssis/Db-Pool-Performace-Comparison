@@ -1,0 +1,8 @@
+- single thread
+type: BoneCP, number of get/release connect: 1000000, time:2937ms 
+type: C3P0, number of get/release connect: 1000000, time:6830ms
+type: Proxool, number of get/release connect: 1000000, time:39824ms
+type: DBCP, number of get/release connect: 1000000, time:520920ms
+ 
+  
+- 500 thread with sleep 10ms
